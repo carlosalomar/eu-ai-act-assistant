@@ -1,0 +1,9 @@
+# Ingestion
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+# Embeddings and retrieval
+sentence-transformers>=3.0
+torch>=2.2
+numpy>=1.26
+rank_bm25>=0.2.2

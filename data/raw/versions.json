@@ -1,0 +1,17 @@
+{
+  "ai_act": {
+    "consolidated_versions": [
+      "02024R1689-20240712",
+      "02024R1689-20260727"
+    ],
+    "amending_acts": [
+      "32026R1744"
+    ]
+  },
+  "gdpr": {
+    "consolidated_versions": [
+      "02016R0679-20160504"
+    ],
+    "amending_acts": []
+  }
+}

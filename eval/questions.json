@@ -1,0 +1,52 @@
+{
+  "_schema": {
+    "id": "q01..q50",
+    "type": "direct | multi_article | unanswerable",
+    "question": "{en, es, de}; es/de only for the ~20 translated questions, otherwise null",
+    "gold": "chunk-level article/annex ids that must be cited, e.g. ai_act:art5, ai_act:anxIII, gdpr:art22. Empty list for unanswerable questions",
+    "gold_any": "true if citing ANY gold id counts as correct (default false = all gold ids expected)",
+    "notes": "free text: why this is the answer, tricky points"
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "type": "direct",
+      "question": {"en": "Which AI practices are prohibited?", "es": "¿Qué prácticas de IA están prohibidas?", "de": null},
+      "gold": ["ai_act:art5"],
+      "gold_any": false,
+      "notes": "Example from the project brief."
+    },
+    {
+      "id": "q02",
+      "type": "multi_article",
+      "question": {"en": "Is an AI system used to screen job applicants a high-risk system?", "es": "¿Un sistema de selección de personal con IA es de alto riesgo?", "de": null},
+      "gold": ["ai_act:art6", "ai_act:anxIII"],
+      "gold_any": false,
+      "notes": "Example from the project brief. Annex III, point 4(a): recruitment or selection of natural persons."
+    },
+    {
+      "id": "q03",
+      "type": "direct",
+      "question": {"en": "What obligations does a provider of a general-purpose AI model have?", "es": "¿Qué tiene que hacer un proveedor de modelos de propósito general?", "de": null},
+      "gold": ["ai_act:art53"],
+      "gold_any": false,
+      "notes": "Example from the project brief. Art. 55 adds obligations for models with systemic risk."
+    },
+    {
+      "id": "q04",
+      "type": "multi_article",
+      "question": {"en": "How does the AI Act relate to the GDPR when personal data are processed?", "es": "¿Cómo se relaciona el AI Act con el RGPD en el tratamiento de datos personales?", "de": null},
+      "gold": ["ai_act:art2"],
+      "gold_any": false,
+      "notes": "Example from the project brief. Art. 2(7) AI Act: the Regulation does not affect the GDPR. Candidates to add: Art. 4a (special categories of data for bias detection, inserted by the Digital Omnibus on AI), Art. 26(9) (DPIA)."
+    },
+    {
+      "id": "q05",
+      "type": "unanswerable",
+      "question": {"en": "", "es": null, "de": null},
+      "gold": [],
+      "gold_any": false,
+      "notes": "Write ~10 of these: plausible questions the two texts do not answer (e.g. national fine amounts in one country, other laws, case law, future guidelines)."
+    }
+  ]
+}
