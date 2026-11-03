@@ -32,6 +32,8 @@ LABELS = {
     "de": {"article": "Artikel", "annex": "Anhang", "recital": "Erwägungsgrund", "part": "Teil"},
 }
 
+INLINE_TAGS = {"span", "a", "sup", "sub", "em", "strong", "b", "i"}
+
 SKIP_CLASSES = {"modref", "arrow", "footnote", "title-article-norm", "stitle-article-norm",
                 "title-annex-1", "title-annex-2"}
 
@@ -88,12 +90,23 @@ def render(el) -> str:
         rows = [" | ".join(clean(td.get_text(" ")) for td in tr.find_all(["td", "th"]))
                 for tr in el.find_all("tr")]
         return "\n".join(r for r in rows if r.strip(" |"))
+    if "superscript" in classes or el.name == "sup":  # 10<sup>25</sup> -> 10^25
+        sup = clean(el.get_text())
+        return "^" + sup if sup.isdigit() else ("º" if sup == "o" else sup)
     if el.name == "span" and "no-parag" in classes:
         return clean(el.get_text())
-    parts = [render(child) for child in el.children]
-    joiner = "\n" if el.name in {"div", "td", "tbody", "tr"} else " "
-    text = joiner.join(p for p in parts if p)
-    return re.sub(r"[ \t]+", " ", text).strip()
+    # Block children go on their own line; text and inline tags stay in the sentence.
+    block_parent = el.name in {"div", "td", "tbody", "tr"}
+    text = ""
+    for child in el.children:
+        piece = render(child)
+        if not piece:
+            continue
+        inline = not isinstance(child, Tag) or child.name in INLINE_TAGS
+        separator = "\n" if block_parent and not inline else " "
+        text = f"{text}{separator}{piece}" if text else piece
+    text = re.sub(r"[ \t]+", " ", text)
+    return re.sub(r" ?\n ?", "\n", text).strip()
 
 
 def is_list_item(el) -> bool:
@@ -336,6 +349,7 @@ def main() -> None:
             chunks += parse_annexes(consolidated, law, lang, cfg["consolidated_celex"])
             chunks += parse_recitals(original, law, lang, cfg["oj_celex"])
         for chunk in chunks:
+            chunk.text = re.sub(r"\s+\^(\d+)\s*(?=[.,;:)\s])", r"^\1", chunk.text)  # 10^25
             chunk.text_for_embedding = f"{embedding_header(chunk)}\n{chunk.text}"
         ids = [c.id for c in chunks]
         dupes = {i for i in ids if ids.count(i) > 1}

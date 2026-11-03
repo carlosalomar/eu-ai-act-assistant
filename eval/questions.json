@@ -11,42 +11,693 @@
     {
       "id": "q01",
       "type": "direct",
-      "question": {"en": "Which AI practices are prohibited?", "es": "¿Qué prácticas de IA están prohibidas?", "de": null},
-      "gold": ["ai_act:art5"],
+      "question": {
+        "en": "Which AI practices are prohibited?",
+        "es": "¿Qué prácticas de IA están prohibidas?",
+        "de": "Welche KI-Praktiken sind verboten?"
+      },
+      "gold": [
+        "ai_act:art5"
+      ],
       "gold_any": false,
       "notes": "Example from the project brief."
     },
     {
       "id": "q02",
-      "type": "multi_article",
-      "question": {"en": "Is an AI system used to screen job applicants a high-risk system?", "es": "¿Un sistema de selección de personal con IA es de alto riesgo?", "de": null},
-      "gold": ["ai_act:art6", "ai_act:anxIII"],
-      "gold_any": false,
-      "notes": "Example from the project brief. Annex III, point 4(a): recruitment or selection of natural persons."
-    },
-    {
-      "id": "q03",
       "type": "direct",
-      "question": {"en": "What obligations does a provider of a general-purpose AI model have?", "es": "¿Qué tiene que hacer un proveedor de modelos de propósito general?", "de": null},
-      "gold": ["ai_act:art53"],
+      "question": {
+        "en": "What obligations does a provider of a general-purpose AI model have?",
+        "es": "¿Qué tiene que hacer un proveedor de modelos de propósito general?",
+        "de": "Welche Pflichten hat ein Anbieter eines KI-Modells mit allgemeinem Verwendungszweck?"
+      },
+      "gold": [
+        "ai_act:art53"
+      ],
       "gold_any": false,
       "notes": "Example from the project brief. Art. 55 adds obligations for models with systemic risk."
     },
     {
-      "id": "q04",
-      "type": "multi_article",
-      "question": {"en": "How does the AI Act relate to the GDPR when personal data are processed?", "es": "¿Cómo se relaciona el AI Act con el RGPD en el tratamiento de datos personales?", "de": null},
-      "gold": ["ai_act:art2"],
+      "id": "q03",
+      "type": "direct",
+      "question": {
+        "en": "How does the AI Act define an 'AI system'?",
+        "es": "¿Cómo define el Reglamento de IA un «sistema de IA»?",
+        "de": "Wie definiert die KI-Verordnung ein „KI-System“?"
+      },
+      "gold": [
+        "ai_act:art3"
+      ],
       "gold_any": false,
-      "notes": "Example from the project brief. Art. 2(7) AI Act: the Regulation does not affect the GDPR. Candidates to add: Art. 4a (special categories of data for bias detection, inserted by the Digital Omnibus on AI), Art. 26(9) (DPIA)."
+      "notes": "Art. 3(1)."
+    },
+    {
+      "id": "q04",
+      "type": "direct",
+      "question": {
+        "en": "What do providers and deployers have to do about AI literacy?",
+        "es": "¿Qué tienen que hacer proveedores y responsables del despliegue en materia de alfabetización en IA?",
+        "de": "Was müssen Anbieter und Betreiber in Bezug auf KI-Kompetenz tun?"
+      },
+      "gold": [
+        "ai_act:art4"
+      ],
+      "gold_any": false,
+      "notes": "Art. 4, as amended by the Digital Omnibus: no specific level of literacy required."
     },
     {
       "id": "q05",
+      "type": "direct",
+      "question": {
+        "en": "What must the risk management system of a high-risk AI system include?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art9"
+      ],
+      "gold_any": false,
+      "notes": "Art. 9."
+    },
+    {
+      "id": "q06",
+      "type": "direct",
+      "question": {
+        "en": "What requirements apply to the training, validation and testing data of high-risk AI systems?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art10"
+      ],
+      "gold_any": false,
+      "notes": "Art. 10 (data governance)."
+    },
+    {
+      "id": "q07",
+      "type": "direct",
+      "question": {
+        "en": "What human oversight is required for high-risk AI systems?",
+        "es": "¿Qué supervisión humana se exige para los sistemas de IA de alto riesgo?",
+        "de": "Welche menschliche Aufsicht ist für Hochrisiko-KI-Systeme vorgeschrieben?"
+      },
+      "gold": [
+        "ai_act:art14"
+      ],
+      "gold_any": false,
+      "notes": "Art. 14."
+    },
+    {
+      "id": "q08",
+      "type": "direct",
+      "question": {
+        "en": "What obligations do deployers of high-risk AI systems have?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art26"
+      ],
+      "gold_any": false,
+      "notes": "Art. 26."
+    },
+    {
+      "id": "q09",
+      "type": "direct",
+      "question": {
+        "en": "Who has to carry out a fundamental rights impact assessment before using a high-risk AI system?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art27"
+      ],
+      "gold_any": false,
+      "notes": "Art. 27: bodies governed by public law, private entities providing public services, and deployers of Annex III points 5(b) and (c)."
+    },
+    {
+      "id": "q10",
+      "type": "direct",
+      "question": {
+        "en": "Does a chatbot have to tell users that they are talking to an AI?",
+        "es": "¿Un chatbot tiene que avisar a los usuarios de que están hablando con una IA?",
+        "de": "Muss ein Chatbot den Nutzern mitteilen, dass sie mit einer KI sprechen?"
+      },
+      "gold": [
+        "ai_act:art50"
+      ],
+      "gold_any": false,
+      "notes": "Art. 50(1)."
+    },
+    {
+      "id": "q11",
+      "type": "direct",
+      "question": {
+        "en": "Do deepfakes have to be labelled as artificially generated?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art50"
+      ],
+      "gold_any": false,
+      "notes": "Art. 50(4)."
+    },
+    {
+      "id": "q12",
+      "type": "direct",
+      "question": {
+        "en": "When is a general-purpose AI model considered to have systemic risk?",
+        "es": "¿Cuándo se considera que un modelo de IA de uso general tiene riesgo sistémico?",
+        "de": "Wann gilt ein KI-Modell mit allgemeinem Verwendungszweck als Modell mit systemischem Risiko?"
+      },
+      "gold": [
+        "ai_act:art51"
+      ],
+      "gold_any": false,
+      "notes": "Art. 51: high impact capabilities, presumed above 10^25 FLOPs of training compute."
+    },
+    {
+      "id": "q13",
+      "type": "direct",
+      "question": {
+        "en": "What is the maximum fine for using a prohibited AI practice?",
+        "es": "¿Cuál es la multa máxima por usar una práctica de IA prohibida?",
+        "de": "Wie hoch ist die Höchstgeldbuße für den Einsatz einer verbotenen KI-Praktik?"
+      },
+      "gold": [
+        "ai_act:art99"
+      ],
+      "gold_any": false,
+      "notes": "Art. 99(3): EUR 35 million or 7% of worldwide annual turnover."
+    },
+    {
+      "id": "q14",
+      "type": "direct",
+      "question": {
+        "en": "Within what deadline must a provider report a serious incident involving a high-risk AI system?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art73"
+      ],
+      "gold_any": false,
+      "notes": "Art. 73(2): no later than 15 days (shorter deadlines in paragraphs 3 and 4)."
+    },
+    {
+      "id": "q15",
+      "type": "direct",
+      "question": {
+        "en": "Do people have a right to an explanation of decisions taken with a high-risk AI system?",
+        "es": "¿Las personas tienen derecho a una explicación de las decisiones tomadas con un sistema de IA de alto riesgo?",
+        "de": "Haben Personen ein Recht auf Erläuterung von Entscheidungen, die mit einem Hochrisiko-KI-System getroffen wurden?"
+      },
+      "gold": [
+        "ai_act:art86"
+      ],
+      "gold_any": false,
+      "notes": "Art. 86."
+    },
+    {
+      "id": "q16",
+      "type": "direct",
+      "question": {
+        "en": "Does the AI Act apply to AI systems used exclusively for military purposes?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art2"
+      ],
+      "gold_any": false,
+      "notes": "Art. 2(3): excluded."
+    },
+    {
+      "id": "q17",
+      "type": "direct",
+      "question": {
+        "en": "From when do the obligations for high-risk AI systems listed in Annex III apply?",
+        "es": "¿Desde cuándo se aplican las obligaciones para los sistemas de alto riesgo del anexo III?",
+        "de": "Ab wann gelten die Pflichten für die in Anhang III aufgeführten Hochrisiko-KI-Systeme?"
+      },
+      "gold": [
+        "ai_act:art113"
+      ],
+      "gold_any": false,
+      "notes": "Art. 113(c)(i): 2 December 2027 after the Digital Omnibus (originally 2 August 2026). Good test of the consolidated version."
+    },
+    {
+      "id": "q18",
+      "type": "direct",
+      "question": {
+        "en": "Is emotion recognition in the workplace allowed?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art5"
+      ],
+      "gold_any": false,
+      "notes": "Art. 5(1)(f): prohibited except for medical or safety reasons."
+    },
+    {
+      "id": "q19",
+      "type": "direct",
+      "question": {
+        "en": "What are the principles relating to the processing of personal data?",
+        "es": "¿Cuáles son los principios relativos al tratamiento de datos personales?",
+        "de": "Welche Grundsätze gelten für die Verarbeitung personenbezogener Daten?"
+      },
+      "gold": [
+        "gdpr:art5"
+      ],
+      "gold_any": false,
+      "notes": "GDPR Art. 5."
+    },
+    {
+      "id": "q20",
+      "type": "direct",
+      "question": {
+        "en": "What are the legal bases for processing personal data?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "gdpr:art6"
+      ],
+      "gold_any": false,
+      "notes": "GDPR Art. 6(1)."
+    },
+    {
+      "id": "q21",
+      "type": "direct",
+      "question": {
+        "en": "From what age can a child consent to the processing of their data by an online service?",
+        "es": "¿A partir de qué edad puede un menor dar su consentimiento al tratamiento de sus datos en un servicio en línea?",
+        "de": "Ab welchem Alter kann ein Kind in die Verarbeitung seiner Daten durch einen Online-Dienst einwilligen?"
+      },
+      "gold": [
+        "gdpr:art8"
+      ],
+      "gold_any": false,
+      "notes": "GDPR Art. 8: 16, Member States may lower to 13."
+    },
+    {
+      "id": "q22",
+      "type": "direct",
+      "question": {
+        "en": "Within how many hours must a personal data breach be notified to the supervisory authority?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "gdpr:art33"
+      ],
+      "gold_any": false,
+      "notes": "GDPR Art. 33(1): 72 hours."
+    },
+    {
+      "id": "q23",
+      "type": "direct",
+      "question": {
+        "en": "When is a data protection impact assessment required?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "gdpr:art35"
+      ],
+      "gold_any": false,
+      "notes": "GDPR Art. 35."
+    },
+    {
+      "id": "q24",
+      "type": "direct",
+      "question": {
+        "en": "What is the right to be forgotten?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "gdpr:art17"
+      ],
+      "gold_any": false,
+      "notes": "GDPR Art. 17."
+    },
+    {
+      "id": "q25",
+      "type": "direct",
+      "question": {
+        "en": "What are the maximum administrative fines under the GDPR?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "gdpr:art83"
+      ],
+      "gold_any": false,
+      "notes": "GDPR Art. 83(4)-(5): EUR 10m/2% and EUR 20m/4%."
+    },
+    {
+      "id": "q26",
+      "type": "direct",
+      "question": {
+        "en": "When must a data protection officer be designated?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "gdpr:art37"
+      ],
+      "gold_any": false,
+      "notes": "GDPR Art. 37."
+    },
+    {
+      "id": "q27",
+      "type": "direct",
+      "question": {
+        "en": "Can a person refuse to be subject to a decision based solely on automated processing?",
+        "es": "¿Puede una persona negarse a ser objeto de una decisión basada únicamente en un tratamiento automatizado?",
+        "de": "Kann eine Person verlangen, keiner ausschließlich auf einer automatisierten Verarbeitung beruhenden Entscheidung unterworfen zu werden?"
+      },
+      "gold": [
+        "gdpr:art22"
+      ],
+      "gold_any": false,
+      "notes": "GDPR Art. 22."
+    },
+    {
+      "id": "q28",
+      "type": "multi_article",
+      "question": {
+        "en": "Is an AI system used to screen job applicants a high-risk system?",
+        "es": "¿Un sistema de selección de personal con IA es de alto riesgo?",
+        "de": "Ist ein KI-System zur Vorauswahl von Bewerbern ein Hochrisiko-KI-System?"
+      },
+      "gold": [
+        "ai_act:art6",
+        "ai_act:anxIII"
+      ],
+      "gold_any": false,
+      "notes": "Example from the project brief. Annex III, point 4(a)."
+    },
+    {
+      "id": "q29",
+      "type": "multi_article",
+      "question": {
+        "en": "How does the AI Act relate to the GDPR when personal data are processed?",
+        "es": "¿Cómo se relaciona el Reglamento de IA con el RGPD en el tratamiento de datos personales?",
+        "de": "Wie verhält sich die KI-Verordnung zur DSGVO bei der Verarbeitung personenbezogener Daten?"
+      },
+      "gold": [
+        "ai_act:art2"
+      ],
+      "gold_any": false,
+      "notes": "Example from the project brief. Art. 2(7) AI Act. Art. 4a and Art. 26(9) are also relevant."
+    },
+    {
+      "id": "q30",
+      "type": "multi_article",
+      "question": {
+        "en": "Is an AI system that assesses the creditworthiness of individuals high-risk?",
+        "es": "¿Es de alto riesgo un sistema de IA que evalúa la solvencia de las personas?",
+        "de": "Ist ein KI-System, das die Kreditwürdigkeit natürlicher Personen bewertet, ein Hochrisiko-System?"
+      },
+      "gold": [
+        "ai_act:art6",
+        "ai_act:anxIII"
+      ],
+      "gold_any": false,
+      "notes": "Annex III, point 5(b), except fraud detection."
+    },
+    {
+      "id": "q31",
+      "type": "multi_article",
+      "question": {
+        "en": "Can a provider process sensitive data such as ethnic origin to detect bias in a high-risk AI system, given that the GDPR restricts special categories of data?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art4a",
+        "gdpr:art9"
+      ],
+      "gold_any": false,
+      "notes": "Art. 4a AI Act (inserted by the Digital Omnibus; formerly Art. 10(5)) and Art. 9 GDPR."
+    },
+    {
+      "id": "q32",
+      "type": "multi_article",
+      "question": {
+        "en": "What do importers and distributors of high-risk AI systems have to check before placing them on the market?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art23",
+        "ai_act:art24"
+      ],
+      "gold_any": false,
+      "notes": "Arts. 23 and 24."
+    },
+    {
+      "id": "q33",
+      "type": "multi_article",
+      "question": {
+        "en": "What extra obligations do providers of general-purpose AI models with systemic risk have compared with other general-purpose AI providers?",
+        "es": "¿Qué obligaciones adicionales tienen los proveedores de modelos de IA de uso general con riesgo sistémico respecto a los demás?",
+        "de": "Welche zusätzlichen Pflichten haben Anbieter von KI-Modellen mit allgemeinem Verwendungszweck mit systemischem Risiko gegenüber anderen Anbietern?"
+      },
+      "gold": [
+        "ai_act:art53",
+        "ai_act:art55"
+      ],
+      "gold_any": false,
+      "notes": "Art. 53 (all) + Art. 55 (systemic risk)."
+    },
+    {
+      "id": "q34",
+      "type": "multi_article",
+      "question": {
+        "en": "When does a deployer or distributor become the provider of a high-risk AI system?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art25"
+      ],
+      "gold_any": false,
+      "notes": "Art. 25(1): own name/trademark, substantial modification, change of intended purpose."
+    },
+    {
+      "id": "q35",
+      "type": "multi_article",
+      "question": {
+        "en": "How do the maximum fines of the AI Act compare with those of the GDPR?",
+        "es": "¿Cómo se comparan las multas máximas del Reglamento de IA con las del RGPD?",
+        "de": "Wie verhalten sich die Höchstgeldbußen der KI-Verordnung zu denen der DSGVO?"
+      },
+      "gold": [
+        "ai_act:art99",
+        "gdpr:art83"
+      ],
+      "gold_any": false,
+      "notes": "AI Act Art. 99 vs GDPR Art. 83."
+    },
+    {
+      "id": "q36",
+      "type": "multi_article",
+      "question": {
+        "en": "Does a deployer of a high-risk AI system have to carry out a data protection impact assessment, and what information can it use?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art26",
+        "gdpr:art35"
+      ],
+      "gold_any": false,
+      "notes": "Art. 26(9) AI Act refers to Art. 35 GDPR and Art. 13 AI Act."
+    },
+    {
+      "id": "q37",
+      "type": "multi_article",
+      "question": {
+        "en": "What steps does a high-risk AI system go through before it can carry the CE marking?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art43",
+        "ai_act:art48"
+      ],
+      "gold_any": false,
+      "notes": "Conformity assessment (Art. 43), EU declaration (Art. 47), CE marking (Art. 48)."
+    },
+    {
+      "id": "q38",
+      "type": "multi_article",
+      "question": {
+        "en": "What rights does a person have when a company uses AI to take an automated decision about them?",
+        "es": "¿Qué derechos tiene una persona cuando una empresa usa IA para tomar una decisión automatizada sobre ella?",
+        "de": "Welche Rechte hat eine Person, wenn ein Unternehmen KI für eine automatisierte Entscheidung über sie einsetzt?"
+      },
+      "gold": [
+        "gdpr:art22",
+        "ai_act:art86"
+      ],
+      "gold_any": true,
+      "notes": "GDPR Art. 22 and AI Act Art. 86. Either counts."
+    },
+    {
+      "id": "q39",
+      "type": "multi_article",
+      "question": {
+        "en": "What must people be told when an AI system interacts with them and collects their personal data?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art50",
+        "gdpr:art13"
+      ],
+      "gold_any": true,
+      "notes": "AI Act Art. 50 (transparency) and GDPR Art. 13 (information). Either counts."
+    },
+    {
+      "id": "q40",
+      "type": "multi_article",
+      "question": {
+        "en": "What must the technical documentation of a high-risk AI system contain?",
+        "es": null,
+        "de": null
+      },
+      "gold": [
+        "ai_act:art11",
+        "ai_act:anxIV"
+      ],
+      "gold_any": false,
+      "notes": "Art. 11(1) and Annex IV."
+    },
+    {
+      "id": "q41",
       "type": "unanswerable",
-      "question": {"en": "", "es": null, "de": null},
+      "question": {
+        "en": "What is the corporate tax rate in Ireland?",
+        "es": "¿Cuál es el tipo del impuesto de sociedades en Irlanda?",
+        "de": "Wie hoch ist der Körperschaftsteuersatz in Irland?"
+      },
       "gold": [],
       "gold_any": false,
-      "notes": "Write ~10 of these: plausible questions the two texts do not answer (e.g. national fine amounts in one country, other laws, case law, future guidelines)."
+      "notes": "Out of domain."
+    },
+    {
+      "id": "q42",
+      "type": "unanswerable",
+      "question": {
+        "en": "Which fines has the Spanish AI supervisory agency AESIA imposed so far?",
+        "es": "¿Qué multas ha impuesto hasta ahora la AESIA?",
+        "de": "Welche Bußgelder hat die spanische KI-Aufsichtsbehörde AESIA bisher verhängt?"
+      },
+      "gold": [],
+      "gold_any": false,
+      "notes": "Enforcement facts are not in the texts."
+    },
+    {
+      "id": "q43",
+      "type": "unanswerable",
+      "question": {
+        "en": "Who is the current head of the European AI Office?",
+        "es": null,
+        "de": null
+      },
+      "gold": [],
+      "gold_any": false,
+      "notes": "Names of officials are not in the texts."
+    },
+    {
+      "id": "q44",
+      "type": "unanswerable",
+      "question": {
+        "en": "Has ChatGPT been designated as a general-purpose AI model with systemic risk?",
+        "es": "¿Se ha designado a ChatGPT como modelo de IA de uso general con riesgo sistémico?",
+        "de": "Wurde ChatGPT als KI-Modell mit allgemeinem Verwendungszweck mit systemischem Risiko eingestuft?"
+      },
+      "gold": [],
+      "gold_any": false,
+      "notes": "Tricky: Art. 51-52 give the criteria but no designation of specific models."
+    },
+    {
+      "id": "q45",
+      "type": "unanswerable",
+      "question": {
+        "en": "How much does a conformity assessment by a notified body usually cost?",
+        "es": null,
+        "de": null
+      },
+      "gold": [],
+      "gold_any": false,
+      "notes": "Costs are not regulated; Art. 62 only mentions fees for SMEs in general terms."
+    },
+    {
+      "id": "q46",
+      "type": "unanswerable",
+      "question": {
+        "en": "What does the US executive order on artificial intelligence require from AI developers?",
+        "es": null,
+        "de": null
+      },
+      "gold": [],
+      "gold_any": false,
+      "notes": "Other jurisdiction."
+    },
+    {
+      "id": "q47",
+      "type": "unanswerable",
+      "question": {
+        "en": "How long does copyright protect works generated by AI in Germany?",
+        "es": null,
+        "de": null
+      },
+      "gold": [],
+      "gold_any": false,
+      "notes": "Copyright law, national law."
+    },
+    {
+      "id": "q48",
+      "type": "unanswerable",
+      "question": {
+        "en": "What did the Court of Justice decide in the Schrems II judgment?",
+        "es": null,
+        "de": null
+      },
+      "gold": [],
+      "gold_any": false,
+      "notes": "Case law is not in the texts."
+    },
+    {
+      "id": "q49",
+      "type": "unanswerable",
+      "question": {
+        "en": "What is the average salary of a data protection officer in Spain?",
+        "es": null,
+        "de": null
+      },
+      "gold": [],
+      "gold_any": false,
+      "notes": "Out of domain."
+    },
+    {
+      "id": "q50",
+      "type": "unanswerable",
+      "question": {
+        "en": "What is the speed limit for self-driving cars on German motorways?",
+        "es": null,
+        "de": null
+      },
+      "gold": [],
+      "gold_any": false,
+      "notes": "Out of domain (traffic law)."
     }
   ]
 }

@@ -20,7 +20,7 @@ from rag.context import expand
 from rag.lang import detect_language
 from rag.retriever import Retriever
 
-MODES = ("llm_only", "dense", "hybrid", "hybrid_rerank")
+MODES = ("llm_only", "dense", "bm25", "hybrid", "hybrid_rerank")
 TOP_K = 5
 
 
