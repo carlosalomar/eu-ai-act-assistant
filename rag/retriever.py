@@ -120,13 +120,17 @@ def get_corpus(lang: str) -> Corpus:
 @lru_cache(maxsize=1)
 def embedding_model():
     from sentence_transformers import SentenceTransformer
-    return SentenceTransformer(EMBEDDING_MODEL)
+    model = SentenceTransformer(EMBEDDING_MODEL)
+    return model.half() if model.device.type == "cuda" else model  # share the GPU with vLLM
 
 
 @lru_cache(maxsize=1)
 def reranker():
     from sentence_transformers import CrossEncoder
-    return CrossEncoder(RERANKER_MODEL, max_length=1024)
+    model = CrossEncoder(RERANKER_MODEL, max_length=1024)
+    if model.device.type == "cuda":
+        model.model.half()
+    return model
 
 
 class Retriever:
