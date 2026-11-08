@@ -74,8 +74,9 @@ def plot_generation(summary, path) -> None:
     systems = [s for s in ("llm_only", "dense", "hybrid_rerank") if s in set(summary["system"])]
     panels = [("correct_citation", "Correct citation (%)"),
               ("faithfulness", "Faithfulness to sources (%)"),
-              ("abstention", "Says \"I don't know\" when it should (%)")]
-    fig, axes = plt.subplots(1, 3, figsize=(13, 3.8), facecolor=SURFACE)
+              ("abstention", "\"I don't know\" on unanswerable (%)"),
+              ("false_abstention", "\"I don't know\" on answerable (%)")]
+    fig, axes = plt.subplots(1, 4, figsize=(17, 3.8), facecolor=SURFACE)
     for ax, (metric, title) in zip(axes, panels):
         _bars(ax, summary, metric, systems)
         _style(ax, title)

@@ -2,7 +2,7 @@
 {"system":"dense","lang":"es","id":"q01","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art5"]}
 {"system":"dense","lang":"de","id":"q01","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art5"]}
 {"system":"dense","lang":"en","id":"q02","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art53","ai_act:art55","ai_act:art53","ai_act:art53","ai_act:art53"]}
-{"system":"dense","lang":"es","id":"q02","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:rct109","ai_act:rct101","ai_act:art53","ai_act:rct114","ai_act:art53"]}
+{"system":"dense","lang":"es","id":"q02","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:rct109","ai_act:rct101","ai_act:art53","ai_act:rct114","ai_act:art55"]}
 {"system":"dense","lang":"de","id":"q02","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art53","ai_act:art55","ai_act:rct106","ai_act:art53","ai_act:rct109"]}
 {"system":"dense","lang":"en","id":"q03","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art3","ai_act:rct12","ai_act:art79","ai_act:art6","ai_act:anxIII"]}
 {"system":"dense","lang":"es","id":"q03","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art3","ai_act:rct12","ai_act:rct52","ai_act:rct97","ai_act:anxXIV"]}
@@ -49,10 +49,10 @@
 {"system":"dense","lang":"en","id":"q25","type":"direct","translated":false,"recall@5":1.0,"sources":["gdpr:art83","gdpr:art83","gdpr:art83","gdpr:art83","gdpr:art83"]}
 {"system":"dense","lang":"en","id":"q26","type":"direct","translated":false,"recall@5":1.0,"sources":["gdpr:art37","gdpr:art37","gdpr:art37","gdpr:art37","gdpr:art37"]}
 {"system":"dense","lang":"en","id":"q27","type":"direct","translated":true,"recall@5":1.0,"sources":["gdpr:art22","gdpr:rct71","ai_act:art60","ai_act:rct44","gdpr:rct67"]}
-{"system":"dense","lang":"es","id":"q27","type":"direct","translated":true,"recall@5":1.0,"sources":["gdpr:art22","gdpr:rct71","gdpr:art22","gdpr:rct67","gdpr:rct70"]}
+{"system":"dense","lang":"es","id":"q27","type":"direct","translated":true,"recall@5":1.0,"sources":["gdpr:art22","gdpr:rct71","gdpr:rct67","gdpr:art22","gdpr:rct70"]}
 {"system":"dense","lang":"de","id":"q27","type":"direct","translated":true,"recall@5":1.0,"sources":["gdpr:art22","gdpr:rct71","gdpr:rct15","gdpr:art22","gdpr:art22"]}
 {"system":"dense","lang":"en","id":"q28","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:anxIII","ai_act:rct57","ai_act:rct61","ai_act:art6","ai_act:rct73"]}
-{"system":"dense","lang":"es","id":"q28","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:rct57","ai_act:rct61","ai_act:rct52","ai_act:anxIII","ai_act:art6"]}
+{"system":"dense","lang":"es","id":"q28","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:rct57","ai_act:rct61","ai_act:anxIII","ai_act:rct52","ai_act:art6"]}
 {"system":"dense","lang":"de","id":"q28","type":"multi_article","translated":true,"recall@5":0.5,"sources":["ai_act:rct52","ai_act:rct57","ai_act:art6","ai_act:rct61","ai_act:art15"]}
 {"system":"dense","lang":"en","id":"q29","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:rct10","ai_act:art2","ai_act:rct69","ai_act:art59","ai_act:art59"]}
 {"system":"dense","lang":"es","id":"q29","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:rct10","ai_act:art2","ai_act:rct39","ai_act:rct38","ai_act:rct69"]}
@@ -71,7 +71,7 @@
 {"system":"dense","lang":"de","id":"q35","type":"multi_article","translated":true,"recall@5":0.0,"sources":["ai_act:art100","ai_act:rct168","ai_act:art100","ai_act:art101","ai_act:art100"]}
 {"system":"dense","lang":"en","id":"q36","type":"multi_article","translated":false,"recall@5":0.5,"sources":["ai_act:art26","ai_act:art27","ai_act:rct96","ai_act:art27","ai_act:rct93"]}
 {"system":"dense","lang":"en","id":"q37","type":"multi_article","translated":false,"recall@5":0.5,"sources":["ai_act:rct129","ai_act:art48","ai_act:art24","ai_act:art48","ai_act:art48"]}
-{"system":"dense","lang":"en","id":"q38","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:art86","ai_act:rct57","ai_act:rct48","ai_act:rct171","ai_act:rct73"]}
+{"system":"dense","lang":"en","id":"q38","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:art86","ai_act:rct57","ai_act:rct171","ai_act:rct48","ai_act:rct73"]}
 {"system":"dense","lang":"es","id":"q38","type":"multi_article","translated":true,"recall@5":0.0,"sources":["ai_act:rct32","ai_act:rct59","ai_act:rct48","ai_act:rct20","ai_act:rct29"]}
 {"system":"dense","lang":"de","id":"q38","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:anxIII","ai_act:rct171","ai_act:art86","ai_act:rct170","ai_act:rct32"]}
 {"system":"dense","lang":"en","id":"q39","type":"multi_article","translated":false,"recall@5":1.0,"sources":["ai_act:rct132","ai_act:art50","ai_act:rct73","ai_act:rct69","ai_act:art78"]}
@@ -162,7 +162,7 @@
 {"system":"hybrid","lang":"de","id":"q02","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art53","ai_act:art55","ai_act:art53","ai_act:rct114","ai_act:art53"]}
 {"system":"hybrid","lang":"en","id":"q03","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art3","gdpr:art45","ai_act:rct12","ai_act:art68","gdpr:art66"]}
 {"system":"hybrid","lang":"es","id":"q03","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art3","ai_act:rct87","ai_act:rct12","ai_act:rct52","ai_act:rct97"]}
-{"system":"hybrid","lang":"de","id":"q03","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:rct12","ai_act:art3","ai_act:rct17","ai_act:art6","ai_act:rct18"]}
+{"system":"hybrid","lang":"de","id":"q03","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:rct12","ai_act:art3","ai_act:rct18","ai_act:rct17","ai_act:art6"]}
 {"system":"hybrid","lang":"en","id":"q04","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art4","ai_act:art4","ai_act:rct20","ai_act:art3","ai_act:rct91"]}
 {"system":"hybrid","lang":"es","id":"q04","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art4","ai_act:rct20","ai_act:art3","ai_act:art4","ai_act:art4"]}
 {"system":"hybrid","lang":"de","id":"q04","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art4","ai_act:rct91","ai_act:rct20","ai_act:art26","ai_act:art26"]}
@@ -250,7 +250,7 @@
 {"system":"hybrid_rerank","lang":"es","id":"q07","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art14","ai_act:art14","ai_act:art14","ai_act:art14","ai_act:art26"]}
 {"system":"hybrid_rerank","lang":"de","id":"q07","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:art14","ai_act:art14","ai_act:art14","ai_act:art26","ai_act:art14"]}
 {"system":"hybrid_rerank","lang":"en","id":"q08","type":"direct","translated":false,"recall@5":1.0,"sources":["ai_act:art26","ai_act:art26","ai_act:art26","ai_act:art26","ai_act:art26"]}
-{"system":"hybrid_rerank","lang":"en","id":"q09","type":"direct","translated":false,"recall@5":1.0,"sources":["ai_act:art27","ai_act:art27","ai_act:art26","ai_act:art27","ai_act:art27"]}
+{"system":"hybrid_rerank","lang":"en","id":"q09","type":"direct","translated":false,"recall@5":1.0,"sources":["ai_act:art27","ai_act:art27","ai_act:art27","ai_act:art26","ai_act:art27"]}
 {"system":"hybrid_rerank","lang":"en","id":"q10","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:rct119","ai_act:art50","ai_act:rct132","ai_act:rct111","ai_act:rct134"]}
 {"system":"hybrid_rerank","lang":"es","id":"q10","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:rct119","ai_act:rct132","ai_act:art50","ai_act:rct134","ai_act:rct133"]}
 {"system":"hybrid_rerank","lang":"de","id":"q10","type":"direct","translated":true,"recall@5":1.0,"sources":["ai_act:rct119","ai_act:rct132","ai_act:art50","ai_act:art52","ai_act:rct27"]}
@@ -297,7 +297,7 @@
 {"system":"hybrid_rerank","lang":"en","id":"q31","type":"multi_article","translated":false,"recall@5":1.0,"sources":["ai_act:art4a","ai_act:art4a","gdpr:art9","ai_act:rct70","gdpr:rct51"]}
 {"system":"hybrid_rerank","lang":"en","id":"q32","type":"multi_article","translated":false,"recall@5":1.0,"sources":["ai_act:art23","ai_act:art24","ai_act:art23","ai_act:art16","ai_act:art23"]}
 {"system":"hybrid_rerank","lang":"en","id":"q33","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:art55","ai_act:art55","ai_act:art53","ai_act:art53","ai_act:art54"]}
-{"system":"hybrid_rerank","lang":"es","id":"q33","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:art55","ai_act:art53","ai_act:art55","ai_act:art53","ai_act:art54"]}
+{"system":"hybrid_rerank","lang":"es","id":"q33","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:art55","ai_act:art55","ai_act:art53","ai_act:art53","ai_act:art54"]}
 {"system":"hybrid_rerank","lang":"de","id":"q33","type":"multi_article","translated":true,"recall@5":1.0,"sources":["ai_act:art55","ai_act:art55","ai_act:art53","ai_act:art53","ai_act:art54"]}
 {"system":"hybrid_rerank","lang":"en","id":"q34","type":"multi_article","translated":false,"recall@5":1.0,"sources":["ai_act:art25","ai_act:art26","ai_act:art25","ai_act:art26","ai_act:rct84"]}
 {"system":"hybrid_rerank","lang":"en","id":"q35","type":"multi_article","translated":true,"recall@5":0.5,"sources":["ai_act:art100","ai_act:art101","ai_act:art100","ai_act:art100","ai_act:art99"]}

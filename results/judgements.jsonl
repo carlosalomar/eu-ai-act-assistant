@@ -1,0 +1,159 @@
+{"system": "dense", "id": "q01", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 8, \"supported\": 8}", "faithfulness": 1.0}
+{"system": "dense", "id": "q01", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 7,\n  \"supported\": 7\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q01", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q02", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 7,\n    \"supported\": 7\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q02", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 4,\n  \"supported\": 4\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q02", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 4,\n  \"supported\": 4\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q03", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 4,\n    \"supported\": 4\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q03", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 3,\n  \"supported\": 3\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q03", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 2}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q04", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 3}", "faithfulness": 1.0}
+{"system": "dense", "id": "q04", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 4, \"supported\": 4}", "faithfulness": 1.0}
+{"system": "dense", "id": "q04", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q05", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 6,\n  \"supported\": 5\n}", "faithfulness": 0.8333333333333334}
+{"system": "dense", "id": "q06", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 4,\n    \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "dense", "id": "q07", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 6,\n    \"supported\": 5\n}", "faithfulness": 0.8333333333333334}
+{"system": "dense", "id": "q07", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 5,\n  \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "dense", "id": "q07", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 4, \"supported\": 4}", "faithfulness": 1.0}
+{"system": "dense", "id": "q08", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 7,\n  \"supported\": 6\n}", "faithfulness": 0.8571428571428571}
+{"system": "dense", "id": "q09", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q10", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 2,\n    \"supported\": 1\n}", "faithfulness": 0.5}
+{"system": "dense", "id": "q10", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q10", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q11", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 2,\n    \"supported\": 2\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q12", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 4,\n    \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "dense", "id": "q12", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 3,\n  \"supported\": 3\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q12", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q13", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "dense", "id": "q13", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "dense", "id": "q13", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q14", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q15", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 2}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q15", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 2}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q15", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "dense", "id": "q16", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 2,\n  \"supported\": 2\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q17", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 0}", "faithfulness": 0.0}
+{"system": "dense", "id": "q17", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 2,\n  \"supported\": 2\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q18", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 3,\n    \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q19", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 6,\n    \"supported\": 6\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q19", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 6, \"supported\": 6}", "faithfulness": 1.0}
+{"system": "dense", "id": "q19", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 7,\n    \"supported\": 7\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q20", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 6,\n    \"supported\": 6\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q21", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 3,\n  \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q21", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q21", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "dense", "id": "q22", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q23", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 5,\n    \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "dense", "id": "q24", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 5,\n    \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "dense", "id": "q25", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q26", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 5, \"supported\": 4}", "faithfulness": 0.8}
+{"system": "dense", "id": "q27", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 2,\n  \"supported\": 2\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q27", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 2}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q27", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q28", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 5,\n  \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "dense", "id": "q28", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 2}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q28", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 2,\n  \"supported\": 1\n}", "faithfulness": 0.5}
+{"system": "dense", "id": "q29", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 5,\n    \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "dense", "id": "q29", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 3,\n  \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q29", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 4,\n    \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "dense", "id": "q30", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "dense", "id": "q30", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 3,\n  \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q30", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 3,\n    \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q31", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 4,\n    \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "dense", "id": "q32", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 4, \"supported\": 4}", "faithfulness": 1.0}
+{"system": "dense", "id": "q33", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 4,\n  \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "dense", "id": "q33", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 5,\n  \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "dense", "id": "q33", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 4, \"supported\": 4}", "faithfulness": 1.0}
+{"system": "dense", "id": "q34", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 3,\n    \"supported\": 3\n}", "faithfulness": 1.0}
+{"system": "dense", "id": "q35", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "```json\n{\"claims\": 3, \"supported\": 2}\n```", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q35", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 1}", "faithfulness": 0.3333333333333333}
+{"system": "dense", "id": "q35", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 4,\n    \"supported\": 2\n}", "faithfulness": 0.5}
+{"system": "dense", "id": "q36", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 4,\n  \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "dense", "id": "q37", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 7, \"supported\": 6}", "faithfulness": 0.8571428571428571}
+{"system": "dense", "id": "q38", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "dense", "id": "q38", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 5,\n    \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "dense", "id": "q38", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 2}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q39", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 2,\n    \"supported\": 1\n}", "faithfulness": 0.5}
+{"system": "dense", "id": "q40", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 5, \"supported\": 4}", "faithfulness": 0.8}
+{"system": "dense", "id": "q44", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "```json\n{\"claims\": 1, \"supported\": 0}\n```", "faithfulness": 0.0}
+{"system": "dense", "id": "q44", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 2}", "faithfulness": 0.6666666666666666}
+{"system": "dense", "id": "q48", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 2,\n    \"supported\": 1\n}", "faithfulness": 0.5}
+{"system": "hybrid_rerank", "id": "q01", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 8, \"supported\": 8}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q01", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 7,\n  \"supported\": 7\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q01", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q02", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 5,\n    \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q02", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 6,\n  \"supported\": 6\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q02", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 4,\n  \"supported\": 4\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q03", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 4, \"supported\": 4}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q03", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 4, \"supported\": 4}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q03", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 3}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q04", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 3}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q04", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 3}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q04", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 3}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q05", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 4,\n  \"supported\": 4\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q06", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 5,\n  \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q07", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 5,\n  \"supported\": 5\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q07", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 7,\n    \"supported\": 6\n}", "faithfulness": 0.8571428571428571}
+{"system": "hybrid_rerank", "id": "q07", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 3,\n  \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q08", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 5, \"supported\": 4}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q09", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q10", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q10", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q10", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 3,\n    \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q11", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 3,\n    \"supported\": 3\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q12", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 3}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q12", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 3,\n  \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q12", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 3,\n    \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q13", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q13", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q13", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q14", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q15", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 3,\n    \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q15", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q15", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q16", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q17", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 2,\n    \"supported\": 1\n}", "faithfulness": 0.5}
+{"system": "hybrid_rerank", "id": "q17", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 4,\n  \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "hybrid_rerank", "id": "q17", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q18", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 4,\n    \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "hybrid_rerank", "id": "q19", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 7,\n    \"supported\": 7\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q19", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 6, \"supported\": 6}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q19", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 4,\n  \"supported\": 4\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q20", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 4,\n    \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "hybrid_rerank", "id": "q21", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 3,\n  \"supported\": 3\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q21", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 2}", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q21", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q22", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q23", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 4, \"supported\": 3}", "faithfulness": 0.75}
+{"system": "hybrid_rerank", "id": "q24", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "```json\n{\n    \"claims\": 7,\n    \"supported\": 6\n}\n```\n\nExplanation:\n- **Claim 1:** \"The right to be forgotten, or 'right to erasure', allows data subjects to request the deletion", "faithfulness": 0.8571428571428571}
+{"system": "hybrid_rerank", "id": "q25", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q26", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 5, \"supported\": 4}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q27", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 2}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q27", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 1, \"supported\": 1}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q27", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "```json\n{\"claims\": 2, \"supported\": 2}\n```", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q28", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 3,\n    \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q28", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 1}", "faithfulness": 0.5}
+{"system": "hybrid_rerank", "id": "q28", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 1}", "faithfulness": 0.5}
+{"system": "hybrid_rerank", "id": "q29", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 5,\n  \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q29", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 5,\n    \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q29", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 3,\n    \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q30", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 2,\n  \"supported\": 1\n}", "faithfulness": 0.5}
+{"system": "hybrid_rerank", "id": "q30", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 3,\n  \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q30", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 1}", "faithfulness": 0.3333333333333333}
+{"system": "hybrid_rerank", "id": "q31", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 5,\n    \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q32", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 4, \"supported\": 4}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q33", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 5,\n    \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q33", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 4,\n  \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "hybrid_rerank", "id": "q33", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 5,\n  \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q34", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 3,\n    \"supported\": 3\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q35", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 1}", "faithfulness": 0.3333333333333333}
+{"system": "hybrid_rerank", "id": "q35", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 5,\n  \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q35", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 1}", "faithfulness": 0.3333333333333333}
+{"system": "hybrid_rerank", "id": "q36", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 6,\n    \"supported\": 5\n}", "faithfulness": 0.8333333333333334}
+{"system": "hybrid_rerank", "id": "q37", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 5,\n    \"supported\": 4\n}", "faithfulness": 0.8}
+{"system": "hybrid_rerank", "id": "q38", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "```json\n{\"claims\": 3, \"supported\": 2}\n```", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q38", "lang": "es", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 3,\n  \"supported\": 2\n}", "faithfulness": 0.6666666666666666}
+{"system": "hybrid_rerank", "id": "q38", "lang": "de", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 3, \"supported\": 3}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q39", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n  \"claims\": 2,\n  \"supported\": 2\n}", "faithfulness": 1.0}
+{"system": "hybrid_rerank", "id": "q40", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\n    \"claims\": 4,\n    \"supported\": 3\n}", "faithfulness": 0.75}
+{"system": "hybrid_rerank", "id": "q48", "lang": "en", "judge_model": "Qwen/Qwen2.5-7B-Instruct-AWQ", "raw": "{\"claims\": 2, \"supported\": 0}", "faithfulness": 0.0}
