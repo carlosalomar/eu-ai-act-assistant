@@ -14,9 +14,16 @@ Usage:
 
 import argparse
 
-from rag.generate import (Answer, LLMClient, is_abstention, llm_only_messages,
-                          parse_free_text_citations, parse_rag_answer, rag_messages)
 from rag.context import expand
+from rag.generate import (
+    Answer,
+    LLMClient,
+    is_abstention,
+    llm_only_messages,
+    parse_free_text_citations,
+    parse_rag_answer,
+    rag_messages,
+)
 from rag.lang import detect_language
 from rag.retriever import Retriever
 

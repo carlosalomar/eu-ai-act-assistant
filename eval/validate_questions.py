@@ -21,7 +21,7 @@ def unit_id(chunk_id: str) -> str:
 
 def main() -> None:
     questions = json.loads((ROOT / "eval" / "questions.json").read_text())["questions"]
-    chunks = [json.loads(l) for l in (ROOT / "data/processed/chunks_en.jsonl").open()]
+    chunks = [json.loads(line) for line in (ROOT / "data/processed/chunks_en.jsonl").open()]
     valid_units = {unit_id(c["id"]) for c in chunks}
     errors = []
     ids = Counter(q["id"] for q in questions)

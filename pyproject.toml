@@ -1,0 +1,16 @@
+[project]
+name = "eu-ai-act-assistant"
+version = "1.0.0"
+description = "RAG assistant for the EU AI Act and the GDPR that cites the exact article, with a multilingual evaluation"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 110
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

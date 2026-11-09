@@ -6,6 +6,16 @@ GDPR (Regulation (EU) 2016/679), citing the exact article, annex or recital
 behind each answer, and an evaluation that measures how well it works in
 English, Spanish and German.
 
+![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB)
+![LLM](https://img.shields.io/badge/LLM-Qwen2.5--7B%20%2B%20vLLM-555)
+![Retrieval](https://img.shields.io/badge/retrieval-bge--m3%20%2B%20BM25%20%2B%20reranker-555)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+![Demo](docs/demo.gif)
+
+*Demo recorded on a CPU with the same model in 4-bit GGUF (llama.cpp); waiting
+time is cut.*
+
 ## Results
 
 50 questions with their gold articles ([eval/questions.json](eval/questions.json)):
@@ -62,21 +72,31 @@ the Spanish and German abstention rates by 33 points.
 pip install -r requirements.txt
 python -m ingest.download   # official texts from EUR-Lex + version check
 python -m ingest.parse      # article/paragraph chunks with metadata
-python -m ingest.embed      # bge-m3 embeddings (GPU recommended)
-python -m eval.validate_questions
-python -m eval.run_eval --stage retrieval   # Recall@5, CPU is enough
-pytest tests
+python -m ingest.embed      # bge-m3 embeddings (a few minutes on GPU, ~25 on CPU)
+pytest
 ```
 
-The LLM runs on Google Colab with vLLM: open
-[notebooks/colab_rag.ipynb](notebooks/colab_rag.ipynb). Any OpenAI-compatible
-endpoint works locally too (`LLM_BASE_URL`, `LLM_MODEL`):
+**On a GPU (Google Colab).** [notebooks/colab_rag.ipynb](notebooks/colab_rag.ipynb)
+builds the index, serves Qwen2.5-7B-Instruct with vLLM on a free T4, runs the
+whole evaluation (`python -m eval.run_eval --stage all`) and starts the demo
+with a public link.
+
+**On a laptop (CPU).** Serve the same model in 4-bit with llama.cpp's
+OpenAI-compatible server and point the app to it:
 
 ```bash
-python -m rag.pipeline "Which AI practices are prohibited?"            # hybrid + reranker
-python -m rag.pipeline "¿Qué dice el artículo 22 del RGPD?" --mode dense
-python -m rag.pipeline "Was regelt Anhang III?" --retrieve-only
+pip install "llama-cpp-python[server]"
+hf download Qwen/Qwen2.5-7B-Instruct-GGUF --include "*q4_k_m*" --local-dir models
+python -m llama_cpp.server --model models/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf \
+    --model_alias qwen --n_ctx 6144 --port 8000
+export LLM_BASE_URL=http://localhost:8000/v1 LLM_MODEL=qwen
+python app.py                                   # Gradio demo on http://localhost:7860
+python -m rag.pipeline "¿Qué dice el artículo 22 del RGPD?"
+python -m rag.pipeline "Was regelt Anhang III?" --retrieve-only   # no LLM needed
 ```
+
+Answers take a few minutes each on a CPU; retrieval alone (and
+`python -m eval.run_eval --stage retrieval`) runs fine without a GPU.
 
 ## How it works
 
@@ -99,18 +119,31 @@ python -m rag.pipeline "Was regelt Anhang III?" --retrieve-only
 Three systems are compared in the evaluation: `llm_only` (no retrieval),
 `dense` (vector search) and `hybrid_rerank`.
 
-See [docs/data_sources.md](docs/data_sources.md) for the exact versions used.
-
 ## Repository layout
 
 ```
 data/      raw EUR-Lex XHTML (git-ignored), processed chunks, embeddings
 ingest/    download, article-level parsing, embeddings
 rag/       references, retrieval, context building, generation, pipeline
-notebooks/ Colab notebook (vLLM)
-tests/     unit tests
 eval/      questions.json, run_eval.py (metrics), charts.py
-results/   tables and charts
+results/   answers, judgements, tables and charts
+notebooks/ Colab notebook (vLLM, evaluation, demo)
+tests/     unit tests
+app.py     Gradio demo
 ```
 
-Not legal advice.
+## Data and versions
+
+The texts are the official EUR-Lex publications, downloaded in English, Spanish
+and German. The AI Act is indexed in its consolidated version of 27 July 2026,
+which includes the Digital Omnibus on AI (Regulation (EU) 2026/1744); recitals
+come from the original Official Journal text. The download script checks EUR-Lex
+for newer consolidations and amending acts. Details in
+[docs/data_sources.md](docs/data_sources.md).
+
+## License
+
+MIT for the code. The legal texts are © European Union, reused under the
+Commission's reuse policy (Decision 2011/833/EU).
+
+*This is a portfolio project, not legal advice.*
